@@ -1,0 +1,46 @@
+open annotated_2bug.pdb
+dssp
+hide atoms
+show cartoon
+show surface
+color gray transparency 10
+color by bfactor #1.1/A range 0,0.35 transparency 0
+color by bfactor #1.1/B range 0,0.35 transparency 0
+color by bfactor #1.11/A range 0,0.35 transparency 0
+color by bfactor #1.11/B range 0,0.35 transparency 0
+color by bfactor #1.12/A range 0,0.35 transparency 0
+color by bfactor #1.12/B range 0,0.35 transparency 0
+color by bfactor #1.13/A range 0,0.35 transparency 0
+color by bfactor #1.13/B range 0,0.35 transparency 0
+color by bfactor #1.14/A range 0,0.35 transparency 0
+color by bfactor #1.14/B range 0,0.35 transparency 0
+color by bfactor #1.15/A range 0,0.35 transparency 0
+color by bfactor #1.15/B range 0,0.35 transparency 0
+color by bfactor #1.16/A range 0,0.35 transparency 0
+color by bfactor #1.16/B range 0,0.35 transparency 0
+color by bfactor #1.17/A range 0,0.35 transparency 0
+color by bfactor #1.17/B range 0,0.35 transparency 0
+color by bfactor #1.18/A range 0,0.35 transparency 0
+color by bfactor #1.18/B range 0,0.35 transparency 0
+color by bfactor #1.19/A range 0,0.35 transparency 0
+color by bfactor #1.19/B range 0,0.35 transparency 0
+color by bfactor #1.2/A range 0,0.35 transparency 0
+color by bfactor #1.2/B range 0,0.35 transparency 0
+color by bfactor #1.3/A range 0,0.35 transparency 0
+color by bfactor #1.3/B range 0,0.35 transparency 0
+color by bfactor #1.4/A range 0,0.35 transparency 0
+color by bfactor #1.4/B range 0,0.35 transparency 0
+color by bfactor #1.5/A range 0,0.35 transparency 0
+color by bfactor #1.5/B range 0,0.35 transparency 0
+color by bfactor #1.6/A range 0,0.35 transparency 0
+color by bfactor #1.6/B range 0,0.35 transparency 0
+color by bfactor #1.7/A range 0,0.35 transparency 0
+color by bfactor #1.7/B range 0,0.35 transparency 0
+color by bfactor #1.8/A range 0,0.35 transparency 0
+color by bfactor #1.8/B range 0,0.35 transparency 0
+color by bfactor #1.9/A range 0,0.35 transparency 0
+color by bfactor #1.9/B range 0,0.35 transparency 0
+color by bfactor #1.10/A range 0,0.35 transparency 0
+color by bfactor #1.10/B range 0,0.35 transparency 0
+hide surface
+lighting soft
