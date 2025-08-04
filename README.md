@@ -3,11 +3,6 @@
 S2Site (Sequence and Structure based Binding Site Prediction) is an end-to-end framework that extends the geometric deep learning model with the protein language model (PLM) to identify the protein binding sites. It accurately predicts protein binding sites on a large scale efficiently without relying on external software and databases of known protein-ligand templates.
 
 ## Setup
-Clone this repository
-```
-git clone https://github.com/LW-21/S2Site.git
-cd S2Site
-```
 
 Create env:
 ```
@@ -119,8 +114,6 @@ python train_baseline.py --version 100 --model_type unet --dropout 0 --gpu_id 0
 python visualization_baseline.py --model_ids RCNN_ --gpu_id 0
 python visualization_baseline.py --model_ids UNetv0_2 --gpu_id 0
 ```
-## Contact
-For any questions and comments regarding the code, please reach out to linwei98126@gmail.com
 
 ## Acknowledgement
-We re-implement the geometric neural network model of ScanNet in PyTorch. Some functions are adapted and modified from ScanNet (https://github.com/jertubiana/ScanNet), which uses Tensorflow.
+We re-implement the geometric neural network model of ScanNet in PyTorch. Some functions are adapted and modified from ScanNet (https://github.com/jertubiana/ScanNet), which uses TensorFlow.
